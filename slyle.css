@@ -4,11 +4,30 @@
     background-color: rgb(204, 60, 108);
     margin-bottom: 40px;
     text-align: center;
-} body{ margin: 0;}
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    list-style: none; 
+    display: block;
+    position: absolute;
+
+}
+
+.menu li {
+    float: left;
 
 
+}
 
-
+.menu li a {
+    display: block;
+    padding: 20px;
+}
 
 
 #bloco2 {
@@ -35,6 +54,7 @@ p {}
     width: 50%;
     text-align: center;
 }
+
 #metas {
     text-align: center;
 }
