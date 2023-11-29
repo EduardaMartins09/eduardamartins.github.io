@@ -1,10 +1,11 @@
 #bloco1 {
-    width: 100%;
+
     padding: 20px;
     background-color: rgb(204, 60, 108);
     margin-bottom: 40px;
     text-align: center;
     position: relative;
+    height: 100px;
 }
 
 body {
@@ -12,9 +13,10 @@ body {
 }
 
 .menu {
-    list-style: none; 
+    list-style: none;
     display: block;
-    position: absolute;
+    width: 800px;
+    margin: 16px auto;
 
 }
 
@@ -25,15 +27,27 @@ body {
 }
 
 .menu li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
-    padding: 20px;
+    padding: 20px 70px;
 }
 
+.menu li a:hover {
+    color: purple
+}
 
 #bloco2 {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     width: 900px;
     z-index: 30;
+    font-size: 20px;
+    line-height: 30px;
+
 }
 
 #fatores {
@@ -57,4 +71,13 @@ p {}
 
 #metas {
     text-align: center;
+}
+
+.video {
+    float: left;
+    margin-right: 50px;
+}
+
+.img-esquerda {
+    float: right;
 }
